@@ -13,7 +13,7 @@ const TodoList = () => {
 
   return (
     <div>
-      <h1>Todo List</h1>
+      <h1>Todo List App by Sungwoo Lee</h1>
       <input type="text" value={newTodo} onChange={(e) => setNewTodo(e.target.value)} />
       <button onClick={addTodo}>Add Todo</button>
       <ul>
